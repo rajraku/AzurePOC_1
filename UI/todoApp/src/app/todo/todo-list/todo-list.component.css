@@ -1,0 +1,7 @@
+.strike {
+    text-decoration-line: line-through;
+}
+
+.list-style {
+    list-style-type: none;
+}

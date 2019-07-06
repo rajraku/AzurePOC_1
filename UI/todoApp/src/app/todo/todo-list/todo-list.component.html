@@ -1,0 +1,6 @@
+<H2>To-Do</H2>
+<ul class="list-style">
+    <li *ngFor="let item of list">
+        <h4 [ngClass]="{'strike': item.isCompleted}">{{item.task}}</h4>
+    </li>
+</ul>
